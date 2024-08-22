@@ -483,26 +483,31 @@ nav .bx {
 
 @media only screen and (max-width : 600px){
 
+ 
+
   .cover-img img{
     position: absolute;
-    right: 0;
-    bottom: 100px;
-    height: 350px;
-    width: 350px;
+    
+    /* bottom: 200px; */
+    height: 300px;
+    width: 300px;
     z-index: -1;
-    margin-right: 0;
+    left: 100px ;
+    /* margin-right: 0; */
   
   }
 
    .circle {
     position: absolute;
-    top: 250px;
+    /* top: 150px; */
     /* left: 0px; */
-    right: 0px;
-    width: 100%;
-    height: calc(100% - 150px);
+    /* right: 0px; */
+    /* bottom: 0px; */
+    /* width: 100%;
+    height: calc(100% - 150px); */
     background-color: #754ef9;
-    clip-path: circle(200px at right 250px);
+    /* clip-path: circle(200px at right 250px  bottom 250px); */
+    clip-path: ellipse(300px 200px at 50% 100%);
     z-index: -1;
   }
 
@@ -515,7 +520,8 @@ nav .bx {
    margin-top: 10%;
    font-size: 20px;
    color: #171717;
-   max-width: 200px;
+   /* max-width: 200px; */
+   text-align: center;
    
  }
 
